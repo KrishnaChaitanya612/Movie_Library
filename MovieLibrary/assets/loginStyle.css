@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #c53b4b;
+  --secondary-color: #fff;
+}
+
+/*-------------------------------------------Card styles----------------------------------------*/
+
+.card {
+  border: 0.4rem solid #f8f9fa;
+  width: 700px;
+  top: 10%;
+  height: 410px;
+  box-shadow: 0 4px 10px 4px #f8f9fa;
+}
+.btr {
+  border-top-right-radius: 5px !important;
+}
+
+.btl {
+  border-top-left-radius: 5px !important;
+}
+.btn {
+  padding: 0.6rem 1.2rem;
+  background: var(--main-color);
+  border: 2px solid var(--main-color);
+}
+.btn-primary:hover {
+  background-color: #df8c96;
+  border-color: #df8c96;
+  transition: 0.3s;
+}
+.form-control {
+  background-color: #f8f9fa;
+  padding: 10px 10px;
+  margin-bottom: 1.3rem;
+}
+
+.form-control:focus,
+.btn:focus {
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+  border: 3px solid var(--main-color);
+  outline: 0;
+  box-shadow: none;
+}
+
+.nav-pills {
+  display: table !important;
+  width: 100%;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0px;
+  background: var(--secondary-color);
+  border: 1.5px solid var(--secondary-color);
+  color: var(--main-color);
+  border-bottom: 1.5px solid var(--main-color) !important;
+}
+.nav-pills .nav-link:hover {
+  color: var(--main-color);
+}
+
+.nav-pills .nav-link.active {
+  background: var(--main-color) !important;
+  border: 1.5px solid var(--main-color) !important;
+  color: var(--secondary-color);
+}
+
+.nav-item {
+  display: table-cell;
+}
+
+.form {
+  padding: 10px;
+  height: 300px;
+}
+
+.form input {
+  margin-bottom: 12px;
+  border-radius: 3px;
+}
+
+.form input:focus {
+  box-shadow: none;
+}
+
+.form button {
+  margin-top: 20px;
+}
