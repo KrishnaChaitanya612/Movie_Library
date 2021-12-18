@@ -8,3 +8,5 @@ A movie library web application
 3. Open phpMyAdmin and create a new database with name `movie_library`.
 4. Click on Import then select file `Movie_Library/movie_library.sql` and Import the sql file into `movie_library` database.
 5. Open your browser and go to `http://localhost/MovieLibrary/index.php`.
+6. You should see login page.
+7. If not change the `$base_url` present in `Movie_Library/database.php` to your path. 
